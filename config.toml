@@ -1,0 +1,115 @@
+baseURL = "https://bdunnette.github.io"
+title = "b.dunnette"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+pygmentsStyle = "bw"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+enableEmoji = true
+# Enable Disqus comments
+# disqusShortname = "yourdiscussshortname"
+
+[params]
+author = "BDunnette"
+description = "BDunnette's personal website"
+keywords = "blog,personal"
+info = ["Geek."]
+#avatarURL = "images/avatar.jpg"
+gravatar = "brian@dunnette.us"
+#footerContent = "Enter a text here."
+dateFormat = "January 2, 2006"
+hideFooter = false
+hideCredits = false
+hideCopyright = false
+since = 2019
+# Git Commit in Footer, uncomment the line below to enable it
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+# Specify light/dark colorscheme
+# Supported values:
+# "auto" (use preference set by browser)
+# "dark" (dark background, light foreground)
+# "light" (light background, dark foreground) (default)
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Enable Twemoji
+enableTwemoji = false
+# Custom CSS
+customCSS = []
+# Custom SCSS
+customSCSS = []
+# Custom JS
+customJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github"
+weight = 1
+url = "https://github.com/bdunnette/"
+
+[[params.social]]
+name = "Gitlab"
+icon = "fa fa-gitlab"
+weight = 2
+url = "https://gitlab.com/bdunnette/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter"
+weight = 3
+url = "https://twitter.com/bdunnette/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/bdunnette/"
+
+[[params.social]]
+name = "Medium"
+icon = "fa fa-medium"
+weight = 5
+url = "https://medium.com/@bdunnette"
+
+#[[params.social]]
+#name = "RSS"
+#icon = "fa fa-rss"
+#weight = 6
+#url = "https://myhugosite.com/index.xml"
+#rel = "alternate"
+#type = "application/rss+xml"
+
+[languages.en]
+languageName = ":en:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+#[[languages.en.menu.main]]
+#name = "Projects"
+#weight = 3
+#url = "projects/"
+
+#[[languages.en.menu.main]]
+#name = "Contact me"
+#weight = 5
+#url = "contact/"
