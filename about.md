@@ -2,14 +2,15 @@
 title: About Me
 authors: 
     - name: Brian Dunnette
-      email: brian@dunnette.us
-      linkedin: https://www.linkedin.com/in/bdunnette/
-      github: bdunnette
       mastodon: '@bdunnette@mspsocial.net'
-description: A brief introduction to who I am and what I do.    
+      email: brian@dunnette.us
+      github: bdunnette
+      bluesky: '@bdunnette.bsky.social'
+      linkedin: 'https://www.linkedin.com/in/bdunnette/'
+description: What it do.    
 license: CC-BY-SA-4.0   
 ---
 
-![https://avatars.githubusercontent.com/u/175838?v=4](https://avatars.githubusercontent.com/u/175838?v=4)
+[Minnesotan](https://en.wikipedia.org/wiki/Minnesota).
 
-Minnesotan. Geek.
+[Geek](https://github.com/bdunnette).
