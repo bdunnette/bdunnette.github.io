@@ -12,6 +12,10 @@ repos:
       - id: uv-lock
       - id: uv-export
         args: [-o, requirements.txt, -q]
+  - repo: https://github.com/google/yamlfmt
+    rev: v0.17.2
+    hooks:
+      - id: yamlfmt
   - repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.12.2
     hooks:
