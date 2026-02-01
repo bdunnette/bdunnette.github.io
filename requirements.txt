@@ -263,9 +263,9 @@ fqdn==1.5.1 \
     --hash=sha256:105ed3677e767fb5ca086a0c1f4bb66ebc3c100be518f0e0d755d9eae164d89f \
     --hash=sha256:3a179af3761e4df6eb2e026ff9e1a3033d3587bf980a0b1b2e1e5d08d7358014
     # via jsonschema
-geopandas==1.1.1 \
-    --hash=sha256:1745713f64d095c43e72e08e753dbd271678254b24f2e01db8cdb8debe1d293d \
-    --hash=sha256:589e61aaf39b19828843df16cb90234e72897e2579be236f10eee0d052ad98e8
+geopandas==1.1.2 \
+    --hash=sha256:2bb0b1052cb47378addb4ba54c47f8d4642dcbda9b61375638274f49d9f0bb0d \
+    --hash=sha256:33f7b33565c46a45b8459a2ab699ec943fdbb5716e58e251b3c413cf7783106c
     # via bdunnette-github-io
 html5lib==1.1 \
     --hash=sha256:0d78f8fde1c230e99fe37986a60526d7049ed4bf8a9fadbad5f00e22e58e041d \
